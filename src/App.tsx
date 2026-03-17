@@ -93,7 +93,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {ACTIVITIES.map((activity, index) => (
             <motion.div
               key={activity.id}
