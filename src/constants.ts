@@ -1,7 +1,6 @@
 import { Activity } from './types';
 import skiImage from './Gemini_Generated_Image_sye0dgsye0dgsye0.png';
 import tubingImage from './Gemini_Generated_Image_z0ph6mz0ph6mz0ph.png';
-import sleighImage from './Gemini_Generated_Image_d3gn80d3gn80d3gn.png';
 
 export const ACTIVITIES: Activity[] = [
   {
@@ -23,15 +22,5 @@ export const ACTIVITIES: Activity[] = [
     
     image: tubingImage,
     icon: "Wind"
-  },
-  {
-    id: 'sleigh-ride',
-    title: "Alpine Sleigh Ride",
-    description: "A magical journey through snow-covered forests in a horse-drawn sleigh. Includes hot cocoa and cozy blankets.",
-    price: 85,
-    duration: "1.5 Hours",
-    
-    image: sleighImage,
-    icon: "Mountain"
   }
 ];
