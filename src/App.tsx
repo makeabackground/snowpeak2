@@ -84,7 +84,7 @@ export default function App() {
           <div>
             <h2 className="text-3xl font-bold tracking-tight mb-4">Winter Adventures</h2>
             <p className="text-slate-500 max-w-md">
-              We have something for every explorer.
+              We have something for every skier.
             </p>
           </div>
           <div className="flex items-center gap-2 text-sm font-medium text-blue-600 bg-blue-50 px-4 py-2 rounded-lg">
